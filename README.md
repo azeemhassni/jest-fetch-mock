@@ -1,7 +1,7 @@
 # Jest Fetch Mock
 
 ![npm downloads](https://img.shields.io/npm/dw/jest-fetch-mock)
-![Node.js CI](https://github.com/jefflau/jest-fetch-mock/workflows/Node.js%20CI/badge.svg)
+![Node.js CI](https://github.com/azeemhassni/jest-fetch-mock/workflows/Node.js%20CI/badge.svg)
 
 Fetch is the canonical way to do HTTP/HTTPS requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your `fetch` calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like `nock` to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the `jest.fn()` methods are also available. For more information on the jest mock API, check their docs [here](https://facebook.github.io/jest/docs/en/mock-functions.html)
 
